@@ -74,7 +74,7 @@ const Header = () => {
                 )}
               </div>
             </div>
-            <Popover.Panel className="flex flex-row absolute right-0 z-10 w-11/12 p-4 dark:bg-slate-800 shadow-md rounded-md">
+            <Popover.Panel className="flex flex-row absolute right-0 z-10 w-11/12 p-4 dark:bg-slate-800 bg-white shadow-md rounded-md">
               <Button
                 onClick={() => router.push("/about")}
                 classes="first:ml-1"
