@@ -23,7 +23,6 @@ export default function Product() {
               height={4032}
               quality={50}
               alt="about_picture"
-              placeholder="blur"
               priority
             />
           </motion.div>

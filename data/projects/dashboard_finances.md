@@ -1,3 +1,5 @@
+I create this project with the aim of making it easier to manage the financial aspects of a personal trip by providing a dashboard to input and track expenses and revenues, the tool is designed to simplify the management of finances during the trip, allowing for a more enjoyable and stress-free travel experience.
+
 ![Dashboard](/images/finance_dashboard.webp "dashboard")
 
 ## Features

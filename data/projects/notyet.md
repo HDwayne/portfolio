@@ -1,6 +1,6 @@
 ## Warning
 
-Due to recent reforms at the Paul Sabatier University and the implementation of a new bachelor degree system. Tthe current version of the Windows application no longer usable. This is because the changes to the bachelor degree system have altered the way that the groups function, which the application relies on to provide users with schedules and other information. As a result, the application can no longer be used to access the updated Celcat schedules.
+Due to recent reforms at the Paul Sabatier University and the implementation of a new bachelor degree system. The current version of the Windows application no longer usable. This is because the changes to the bachelor degree system have altered the way that the groups function, which the application relies on to provide users with schedules and other information. As a result, the application can no longer be used to access the updated Celcat schedules.
 
 ## Installation
 

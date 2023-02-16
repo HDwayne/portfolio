@@ -27,7 +27,6 @@ export default function Home() {
               height={224}
               priority
               quality={50}
-              placeholder="blur"
             />
             <div className="w-full self-center laptop:mr-2">
               <h1 className="text-3xl font-bold my-2">
@@ -115,7 +114,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h1>Made With ❤ by Dwayne Herzberg</h1>
+          <h1>Made With ❤ by Dwayne Herzberg - 2023</h1>
         </motion.footer>
       </div>
     </>

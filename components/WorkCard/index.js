@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Button from "../Button";
 
 const WorkCard = ({ title, type, description, year, technologies, img }) => {
   return (
@@ -8,7 +9,7 @@ const WorkCard = ({ title, type, description, year, technologies, img }) => {
       whileHover={{ y: -3 }}
     >
       <Image
-        className="inset-0 object-cover object-center tablet:w-2/6"
+        className="inset-0 object-cover object-center w-full tablet:w-2/6"
         src={`/images/${img}`}
         alt="Image d'un projet"
         width={500}
@@ -31,14 +32,13 @@ const WorkCard = ({ title, type, description, year, technologies, img }) => {
                   width={16}
                   height={16}
                   alt="Logo d'une technologie"
-                  placeholder="blur"
                   loading='lazy'
                 />
               </motion.div>
             ))}
           </div>
         </div>
-        <p className="mt-2">{description}</p>
+        <p className="mt-2 text-justify">{description}</p>
         <p className="text-sm uppercase tracking-wide font-semibold mt-2">
           {type} &bull; {year}
         </p>
