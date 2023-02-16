@@ -20,12 +20,11 @@ export default function Home() {
           >
             <Image
               className="rounded-full w-56 h-56 self-center text-center m-auto"
-              src="/images/profil.webp"
+              src="/images/profil.jpg"
               alt="Avatar"
               width={224}
               height={224}
               priority
-              quality={50}
             />
             <div className="w-full self-center laptop:mr-2">
               <h1 className="text-3xl font-bold my-2">
