@@ -8,7 +8,6 @@ import WavingHand from "@/components/WavingHand";
 import data from "../data/portfolio.json";
 
 export default function Home() {
-
   return (
     <>
       <div className="container mx-auto max-w-7xl">
@@ -36,9 +35,14 @@ export default function Home() {
                 I&apos;m Dwayne, <br />
                 student in computer science !
               </p>
-              <Link href="/about">
+              <Link href="/about" className="mr-1">
                 <button className="my-2 bg-transparent font-semibold py-2 px-4 border border-black text-black hover:text-white hover:bg-black dark:border-dark-teal dark:text-dark-teal dark:hover:text-white dark:hover:bg-dark-teal rounded-2xl">
                   More about me
+                </button>
+              </Link>
+              <Link href="/Herzberg_Dwayne.pdf" target="_blank" className="ml-1">
+                <button className="my-2 bg-transparent font-semibold py-2 px-4 border border-black text-black hover:text-white hover:bg-black dark:border-dark-teal dark:text-dark-teal dark:hover:text-white dark:hover:bg-dark-teal rounded-2xl">
+                  My resume
                 </button>
               </Link>
             </div>
@@ -54,9 +58,7 @@ export default function Home() {
             <p className="mt-5 text-xl leading-8 font-normal opacity-70">
               “ {data.project_upcoming.description} ”
             </p>
-            <p className="mt-2">
-              { data.project_upcoming.partner }
-            </p>
+            <p className="mt-2">{data.project_upcoming.partner}</p>
           </motion.div>
         </section>
 
@@ -114,7 +116,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h1>Made With ❤ by Dwayne Herzberg - 2023</h1>
+          <h1>Made With ❤ by Dwayne Herzberg &bull; 2023</h1>
         </motion.footer>
       </div>
     </>
