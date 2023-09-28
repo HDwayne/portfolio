@@ -37,11 +37,11 @@ const TimeLine = ({ items, classes, rightside }) => {
                   </svg>
                 </div>
                 <div className={`${rightside && "text-right"}`}>
-                  <p className="text-sm">
+                  <p className="text-sm font-semibold">
                     {item.start}
-                    {item.end ? `- ${item.end}` : ""}
+                    {item.end ? ` - ${item.end}` : ""}
                   </p>
-                  <p className="mt-2 text-sm">{item.title}</p>
+                  <p className="mt-2 text-sm font-bold">{item.title}</p>
                   <p className="mt-2 text-sm mb-3">{item.description}</p>
                 </div>
               </li>
