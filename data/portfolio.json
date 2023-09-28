@@ -35,7 +35,7 @@
       "type": "Embedded system",
       "description": "An embedded system that uses an ESP32 microcontroller to accurately track the position of the sun and adjust the angle of a solar panel accordingly. By constantly monitoring the sun's movement throughout the day, the Solar Tracker ensures that the solar panel is always in the optimal position for maximum energy production. The system uses precise calculations to determine the sun's position and employs relays to adjust panel angles for optimal performance.",
       "year": "2023",
-      "technologies": ["c", "espressif", "PlatformIO", "solidworks"],
+      "technologies": ["c", "espressif", "platformio", "solidworks"],
       "imageSrc": "solar_tracker_img.webp"
     },
     {
@@ -46,7 +46,7 @@
       "description": "This project is a C program that determines the winner of an election using various methods such as First-past-the-post (Uninominal one round), Two-round system (Uninominal 2 rounds), Condorcet method, Resolution by Minimax method, Schulze method. The program allows for the input of candidate information and voting data, and then calculates the winner based on these different election methods.",
       "type": "Console application",
       "year": "2022",
-      "technologies": ["c", "vscode", "ubuntu", "makefiles"],
+      "technologies": ["c", "makefile"],
       "imageSrc": "ballot_img.webp"
     },
     {
@@ -57,7 +57,7 @@
       "description": "This project is a Windows application created with WPF technology, which provides easy access to the Celcat schedules of the Paul Sabatier University. The application allows users to quickly view their class schedules, exam dates and other crucial dates of the university.",
       "type": "WPF Application",
       "year": "2022",
-      "technologies": ["c_sharp", "visualstudio", "wpf"],
+      "technologies": ["csharp", "wpf"],
       "imageSrc": "notyet_img.png"
     },
     {
@@ -68,7 +68,7 @@
       "description": "This project is a web application built using the Django framework. It serves as a dashboard for managing and tracking the financial aspects of a group travel. The application allows users to input and manage financial data such as revenues and expenses. The goal of this project is to provide a tool for travel groups to manage and understand their financial data, making it easier for them to plan and execute a successful trip.",
       "type": "Web application",
       "year": "2021",
-      "technologies": ["html", "css", "python", "django"],
+      "technologies": ["html5", "css3", "python", "django"],
       "imageSrc": "dashboard_finance_img.webp"
     }
   ],

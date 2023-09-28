@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Button from "../Button";
 
 const WorkCard = ({ title, type, description, year, technologies, img }) => {
   return (
@@ -28,10 +27,10 @@ const WorkCard = ({ title, type, description, year, technologies, img }) => {
                 whileHover={{ scale: 1.2 }}
               >
                 <Image
-                  src={`/icons/${item}.png`}
-                  width={16}
-                  height={16}
-                  alt="Logo d'une technologie"
+                  src={`/icons/svg/${item}.svg`}
+                  width={32}
+                  height={32}
+                  alt={item}
                   loading="lazy"
                 />
               </motion.div>

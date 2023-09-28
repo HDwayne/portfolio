@@ -11,12 +11,13 @@ const Skills = ({ title, items }) => {
       </div>
       <div class="sm:py-6 px-8 sm:24 flex flex-wrap items-center">
         {items.map((item) => (
-          <div class="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform  hover:scale-75 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <div class="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-75 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
             <Image
               src={`/icons/svg/${item}.svg`}
-              width={32}
-              height={32}
+              width={96}
+              height={96}
               alt={item}
+              loading="lazy"
               className="focus:outline-none w-12 sm:w-16"
             />
           </div>
