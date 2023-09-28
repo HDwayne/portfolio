@@ -5,7 +5,7 @@ import Button from "../Button";
 const WorkCard = ({ title, type, description, year, technologies, img }) => {
   return (
     <motion.article
-      className="flex flex-col tablet:flex-row overflow-hidden elevation-10dp rounded-lg mt-4 dark:bg-dark-primary"
+      className="flex flex-col tablet:flex-row overflow-hidden elevation-3dp rounded-lg mt-4 dark:bg-dark-primary"
       whileHover={{ y: -3 }}
     >
       <Image
@@ -32,7 +32,7 @@ const WorkCard = ({ title, type, description, year, technologies, img }) => {
                   width={16}
                   height={16}
                   alt="Logo d'une technologie"
-                  loading='lazy'
+                  loading="lazy"
                 />
               </motion.div>
             ))}

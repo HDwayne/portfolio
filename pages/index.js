@@ -16,7 +16,7 @@ export default function Home() {
             initial={{ scale: 1.05, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="rounded-3xl m-2 p-5 elevation-16dp dark:bg-dark-primary text-center flex flex-col tablet:order-last laptop:justify-between laptop:text-left laptop:flex-row-reverse"
+            className="rounded-3xl m-2 p-5 elevation-5dp dark:bg-dark-primary text-center flex flex-col tablet:order-last laptop:justify-between laptop:text-left laptop:flex-row-reverse"
           >
             <Image
               className="rounded-full w-56 h-56 self-center text-center m-auto"
@@ -39,7 +39,11 @@ export default function Home() {
                   More about me
                 </button>
               </Link>
-              <Link href="/Herzberg_Dwayne.pdf" target="_blank" className="ml-1">
+              <Link
+                href="/Herzberg_Dwayne.pdf"
+                target="_blank"
+                className="ml-1"
+              >
                 <button className="my-2 bg-transparent font-semibold py-2 px-4 border border-black text-black hover:text-white hover:bg-black dark:border-dark-teal dark:text-dark-teal dark:hover:text-white dark:hover:bg-dark-teal rounded-2xl">
                   My resume
                 </button>
