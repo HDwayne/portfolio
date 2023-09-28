@@ -11,7 +11,10 @@ const Skills = ({ title, items }) => {
       </div>
       <div class="sm:py-6 px-8 sm:24 flex flex-wrap items-center">
         {items.map((item) => (
-          <div class="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-75 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <div
+            key={item}
+            class="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-75 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl"
+          >
             <Image
               src={`/icons/svg/${item}.svg`}
               width={96}
