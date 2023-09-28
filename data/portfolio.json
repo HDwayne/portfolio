@@ -130,32 +130,33 @@
       "description": "Preparation of products with particular attention to pastries. Handling cash receipts, taking and preparing orders orders, and responsibility for opening and closing of the store."
     }
   ],
-  "skills": {
-    "languages": [
-      "html",
-      "css",
-      "python",
-      "c",
-      "shell",
-      "c_sharp",
-      "java",
-      "ocaml",
-      "sql"
-    ],
-    "tools": [
-      "solidworks",
-      "PlatformIO",
-      "arduino",
-      "espressif",
-      "visualstudio",
-      "vscode",
-      "intelliJ",
-      "pycharm",
-      "eclipse",
-      "git",
-      "AndroidStudio",
-      "django",
-      "nextJs"
-    ]
-  }
+  "skills": [
+    "arduino",
+    "bash",
+    "c",
+    "csharp",
+    "css3",
+    "django",
+    "docker",
+    "espressif",
+    "express-js",
+    "flask",
+    "git",
+    "html5",
+    "java",
+    "javascript",
+    "jupyter",
+    "mongodb",
+    "nextjs",
+    "nodejs",
+    "ocaml",
+    "postgres",
+    "python",
+    "react-native",
+    "redis",
+    "solidworks",
+    "sql",
+    "swagger",
+    "visual-studio-code"
+  ]
 }

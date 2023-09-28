@@ -65,9 +65,7 @@ export default function Product() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}
         >
-          <h1 className="text-2xl font-bold mt-5">Skills</h1>
-          <Skills title="Languages" items={data.skills.languages} />
-          <Skills title="Tools" items={data.skills.tools} />
+          <Skills title="Things I Know and Use" items={data.skills} />
         </motion.section>
       </div>
     </>
