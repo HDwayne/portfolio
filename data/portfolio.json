@@ -1,32 +1,41 @@
 {
   "name": "Dwayne Herzberg",
   "description": "Dwayne Herzberg's portfolio",
-  "mydescription": "I am 20 years old and I study computer science at the Paul Sabatier University in Toulouse, France. I am interested in embedded systems and software development, which I am deeply passionate about.",
+  "mydescription": "I am 20 years old and I'm currently pursuing my computer science degree at Paul Sabatier University with a focus on Embedded and Connected Systems.",
   "socials": [
     { "id": "1", "title": "Github", "link": "https://github.com/HDwayne" },
-    { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/dwayne-herzberg" },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/dwayne-herzberg"
+    },
     { "id": "3", "title": "Email", "link": "mailto:dwayneherzberg@gmail.com" }
   ],
   "project_upcoming": {
-    "description": "Development of a visualization and validation tool for meteorological and chemical data from the Pic du Midi de Bigorre environmental measurement station.",
-    "partner": "OMP - Aerology Laboratory"
+    "description": "Management application for a French trade union, developed with PostgreSQL, Express, React, Node.js, Redis, NGINX and Docker. This application covers the complete management of memberships, internal structures, mandates and much more.",
+    "partner": "Fédération FO Cheminots"
   },
   "projects": [
+    {
+      "id": "5",
+      "markdown": "atmosphere",
+      "github": "https://github.com/HDwayne/Atmosphere",
+      "title": "Atmpsphere",
+      "type": "Web application",
+      "description": "tool for visualizing and validating meteorological and chemical data from the Pic du Midide Bigorre environmental measurement station.",
+      "year": "2023",
+      "technologies": ["python"],
+      "imageSrc": "atmosphere_img.webp"
+    },
     {
       "id": "1",
       "markdown": "solar_tracker",
       "github": "https://github.com/HDwayne/solar-tracker",
       "title": "Solar Tracker",
       "type": "Embedded system",
-      "description":"An embedded system that uses an ESP32 microcontroller to accurately track the position of the sun and adjust the angle of a solar panel accordingly. By constantly monitoring the sun's movement throughout the day, the Solar Tracker ensures that the solar panel is always in the optimal position for maximum energy production. The system uses precise calculations to determine the sun's position and employs relays to adjust panel angles for optimal performance.",
+      "description": "An embedded system that uses an ESP32 microcontroller to accurately track the position of the sun and adjust the angle of a solar panel accordingly. By constantly monitoring the sun's movement throughout the day, the Solar Tracker ensures that the solar panel is always in the optimal position for maximum energy production. The system uses precise calculations to determine the sun's position and employs relays to adjust panel angles for optimal performance.",
       "year": "2023",
-      "technologies": [
-        "c",
-        "arduino",
-        "espressif",
-        "PlatformIO",
-        "solidworks"
-      ],
+      "technologies": ["c", "espressif", "PlatformIO", "solidworks"],
       "imageSrc": "solar_tracker_img.webp"
     },
     {
@@ -34,15 +43,10 @@
       "markdown": "ballot",
       "github": "https://github.com/HDwayne/Scrutin",
       "title": "ballot",
-      "description":"This project is a C program that determines the winner of an election using various methods such as First-past-the-post (Uninominal one round), Two-round system (Uninominal 2 rounds), Condorcet method, Resolution by Minimax method, Schulze method. The program allows for the input of candidate information and voting data, and then calculates the winner based on these different election methods.",
+      "description": "This project is a C program that determines the winner of an election using various methods such as First-past-the-post (Uninominal one round), Two-round system (Uninominal 2 rounds), Condorcet method, Resolution by Minimax method, Schulze method. The program allows for the input of candidate information and voting data, and then calculates the winner based on these different election methods.",
       "type": "Console application",
       "year": "2022",
-            "technologies": [
-        "c",
-        "vscode",
-        "ubuntu",
-        "makefiles"
-      ],
+      "technologies": ["c", "vscode", "ubuntu", "makefiles"],
       "imageSrc": "ballot_img.webp"
     },
     {
@@ -50,14 +54,10 @@
       "markdown": "notyet",
       "github": "https://github.com/HDwayne/NotYet",
       "title": "NotYet",
-      "description":"This project is a Windows application created with WPF technology, which provides easy access to the Celcat schedules of the Paul Sabatier University. The application allows users to quickly view their class schedules, exam dates and other crucial dates of the university.",
+      "description": "This project is a Windows application created with WPF technology, which provides easy access to the Celcat schedules of the Paul Sabatier University. The application allows users to quickly view their class schedules, exam dates and other crucial dates of the university.",
       "type": "WPF Application",
       "year": "2022",
-            "technologies": [
-        "c_sharp",
-        "visualstudio",
-        "wpf"
-      ],
+      "technologies": ["c_sharp", "visualstudio", "wpf"],
       "imageSrc": "notyet_img.png"
     },
     {
@@ -65,33 +65,35 @@
       "markdown": "dashboard_finances",
       "github": "https://github.com/HDwayne/Dashboard_gestion_budget",
       "title": "Dashboard for tracking revenues and expenses",
-      "description":"This project is a web application built using the Django framework. It serves as a dashboard for managing and tracking the financial aspects of a group travel. The application allows users to input and manage financial data such as revenues and expenses. The goal of this project is to provide a tool for travel groups to manage and understand their financial data, making it easier for them to plan and execute a successful trip.",
+      "description": "This project is a web application built using the Django framework. It serves as a dashboard for managing and tracking the financial aspects of a group travel. The application allows users to input and manage financial data such as revenues and expenses. The goal of this project is to provide a tool for travel groups to manage and understand their financial data, making it easier for them to plan and execute a successful trip.",
       "type": "Web application",
       "year": "2021",
-            "technologies": [
-        "html",
-        "css",
-        "python",
-        "django"
-      ],
+      "technologies": ["html", "css", "python", "django"],
       "imageSrc": "dashboard_finance_img.webp"
     }
   ],
   "education": [
     {
-      "id":"3",
+      "id": "4",
+      "start": "2023",
+      "end": "2025",
+      "title": "Paul Sabatier University, Toulouse (31)",
+      "description": "Master's degree in computer science with a focus on Embedded and Connected Systems: Infrastructure and Software"
+    },
+    {
+      "id": "3",
       "start": "2020",
       "end": "2023",
       "title": "Paul Sabatier University, Toulouse (31)",
       "description": "Bachelor's degree in computer science"
     },
     {
-      "id":"2",
+      "id": "2",
       "start": "2022",
       "title": "Scouts of the World Award (SOWA)"
     },
     {
-      "id":"1",
+      "id": "1",
       "start": "2017",
       "end": "2020",
       "title": "Pierre Bourdieu General High School, Fronton (31)",
@@ -100,25 +102,60 @@
   ],
   "experiences": [
     {
-      "id":"2",
-      "start": "May 2021",
-      "end": "July 2021",
-      "title": "Multipurpose employee | Paul, Aire du frontonnais"
+      "id": "4",
+      "start": "June 2023",
+      "end": "August 2023",
+      "title": "Multipurpose employee | E.Leclerc Autoroute, Aire du frontonnais",
+      "description": "Cashier and warehouseman, covering the areas of cashiering, shelving, product reception and service station maintenance."
     },
     {
-      "id":"1",
+      "id": "3",
+      "start": "February 2023",
+      "end": "April 2023",
+      "title": "Internship | Midi-Pyrénées Observatory, Toulouse, France",
+      "description": "Development of a visualization and validation tool for meteorological and chemical data from the Pic du Midi de Bigorre environmental measurement station."
+    },
+    {
+      "id": "2",
       "start": "July 2022",
       "end": "August 2022",
       "title": "Volunteer work | Riosucio, Caldas, Colombia",
       "description": "scouting project in Colombia where I had the opportunity to engage in cultural exchanges with young people supported by the Portal de Luz Corporation, a charity organization dedicated to helping children in need."
+    },
+    {
+      "id": "1",
+      "start": "May 2021",
+      "end": "July 2021",
+      "title": "Multipurpose employee | Paul, Aire du frontonnais",
+      "description": "Preparation of products with particular attention to pastries. Handling cash receipts, taking and preparing orders orders, and responsibility for opening and closing of the store."
     }
   ],
   "skills": {
     "languages": [
-      "html", "css", "python", "c", "shell", "c_sharp", "java", "ocaml", "sql"
+      "html",
+      "css",
+      "python",
+      "c",
+      "shell",
+      "c_sharp",
+      "java",
+      "ocaml",
+      "sql"
     ],
     "tools": [
-      "solidworks", "PlatformIO", "arduino", "espressif", "visualstudio", "vscode", "intelliJ", "pycharm", "eclipse", "git", "AndroidStudio", "django", "nextJs"
+      "solidworks",
+      "PlatformIO",
+      "arduino",
+      "espressif",
+      "visualstudio",
+      "vscode",
+      "intelliJ",
+      "pycharm",
+      "eclipse",
+      "git",
+      "AndroidStudio",
+      "django",
+      "nextJs"
     ]
   }
 }
