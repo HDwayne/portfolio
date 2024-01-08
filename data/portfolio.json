@@ -1,7 +1,7 @@
 {
   "name": "Dwayne Herzberg",
   "description": "Dwayne Herzberg's portfolio",
-  "mydescription": "I am 20 years old and I'm currently pursuing my computer science degree at Paul Sabatier University with a focus on Embedded and Connected Systems.",
+  "mydescription": "I am 21 years old and I'm currently pursuing my computer science degree at Paul Sabatier University with a focus on Embedded and Connected Systems.",
   "socials": [
     { "id": "1", "title": "Github", "link": "https://github.com/HDwayne" },
     {
@@ -12,7 +12,7 @@
     { "id": "3", "title": "Email", "link": "mailto:dwayneherzberg@gmail.com" }
   ],
   "project_upcoming": {
-    "description": "Management application for a French trade union, developed with PostgreSQL, Express, React, Node.js, Redis, NGINX and Docker. This application covers the complete management of memberships, internal structures, mandates and much more.",
+    "description": "Management application for a French trade union, developed with PostgreSQL, Vite, Vue.JS, Go, Redis, NGINX and Docker. This application covers the complete management of memberships, internal structures, mandates and much more.",
     "partner": "Fédération FO Cheminots"
   },
   "projects": [
