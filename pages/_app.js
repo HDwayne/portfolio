@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <h1>Made With ❤ by Dwayne Herzberg &bull; 2023-2024</h1>
-            <p>Sorry for the design, I'm not a front-end dev and never will be! 😅 I did my best, though!</p>
+            <p>Sorry for the design, I&apos;m not a front-end dev and never will be! 😅 I did my best, though!</p>
           </motion.footer>
         </AnimatePresence>
       </ThemeProvider>

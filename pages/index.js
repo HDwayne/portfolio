@@ -32,7 +32,7 @@ export default function Home() {
               </h1>
               <p className="text-xl leading-8 font-normal my-2">
                 I&apos;m Dwayne,
-                a final-year master's student in embedded systems !
+                a final-year master&apos;s student in embedded systems !
               </p>
               <Link href="/about" className="mr-1">
                 <button className="my-2 bg-transparent font-semibold py-2 px-4 border border-black text-black hover:text-white hover:bg-black dark:border-dark-teal dark:text-dark-teal dark:hover:text-white dark:hover:bg-dark-teal rounded-2xl">
@@ -57,7 +57,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="p-2"
           >
-            <h1 className="text-3xl font-bold">What's Up?</h1>
+            <h1 className="text-3xl font-bold">What&apos;s Up?</h1>
             <p className="mt-5 text-xl leading-8 font-normal opacity-70">
               “ {data.project_upcoming.description} ”
             </p>
