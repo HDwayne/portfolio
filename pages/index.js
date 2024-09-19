@@ -31,8 +31,8 @@ export default function Home() {
                 Hi <WavingHand /> !
               </h1>
               <p className="text-xl leading-8 font-normal my-2">
-                I&apos;m Dwayne, <br />
-                student in computer science !
+                I&apos;m Dwayne,
+                a final-year master's student in embedded systems !
               </p>
               <Link href="/about" className="mr-1">
                 <button className="my-2 bg-transparent font-semibold py-2 px-4 border border-black text-black hover:text-white hover:bg-black dark:border-dark-teal dark:text-dark-teal dark:hover:text-white dark:hover:bg-dark-teal rounded-2xl">
@@ -40,7 +40,7 @@ export default function Home() {
                 </button>
               </Link>
               <Link
-                href="/Herzberg_Dwayne.pdf"
+                href="/CV_Herzberg_Dwayne.pdf"
                 target="_blank"
                 className="ml-1"
               >
@@ -57,7 +57,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="p-2"
           >
-            <h1 className="text-3xl font-bold">Upcoming project</h1>
+            <h1 className="text-3xl font-bold">What's Up?</h1>
             <p className="mt-5 text-xl leading-8 font-normal opacity-70">
               “ {data.project_upcoming.description} ”
             </p>
@@ -71,7 +71,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="p-2 mt-14"
         >
-          <h1 className="text-3xl font-bold">My works</h1>
+          <h1 className="text-3xl font-bold">Some of my projects</h1>
           <ul>
             {data.projects.map((project, index) => (
               <motion.li
@@ -112,15 +112,6 @@ export default function Home() {
             ))}
           </ul>
         </motion.section>
-
-        <motion.footer
-          className="text-sm text-bold mt-2 p-2"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-        >
-          <h1>Made With ❤ by Dwayne Herzberg &bull; 2023</h1>
-        </motion.footer>
       </div>
     </>
   );

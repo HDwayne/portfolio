@@ -1,7 +1,8 @@
 {
   "name": "Dwayne Herzberg",
   "description": "Dwayne Herzberg's portfolio",
-  "mydescription": "I am 21 years old and I'm currently pursuing my computer science degree at Paul Sabatier University with a focus on Embedded and Connected Systems.",
+  "mydescription": "I am a 21-year-old student in my final year of a master's degree in Embedded and Connected Systems at Paul Sabatier University. With a strong focus on embedded systems and a passion for low-level development.",
+  "mydescription2": "In addition to my academic work, I enjoy creating complete projects from scratch. This includes everything from prototyping and 3D modeling in SolidWorks, to 3D printing and finalizing the product. I also regularly work on and improve my homelab, setting up various services and fine-tuning my personal server infrastructure to meet my needs and those of my family.",
   "socials": [
     { "id": "1", "title": "Github", "link": "https://github.com/HDwayne" },
     {
@@ -12,8 +13,8 @@
     { "id": "3", "title": "Email", "link": "mailto:dwayneherzberg@gmail.com" }
   ],
   "project_upcoming": {
-    "description": "Management application for a French trade union, developed with PostgreSQL, Vite, Vue.JS, Go, Redis, NGINX and Docker. This application covers the complete management of memberships, internal structures, mandates and much more.",
-    "partner": "Fédération FO Cheminots"
+    "description": "Currently building a compiler from scratch (AST, quadruples, etc.), deep diving into various Instruction Set Architectures (ISA), learning AArch64 to develop a simple kernel, and exploring STM32 registers. Most of this work is done as part of my university studies, while also working on personal IoT projects and refining my skills in embedded systems",
+    "partner": ""
   },
   "projects": [
     {
@@ -74,11 +75,18 @@
   ],
   "education": [
     {
-      "id": "4",
-      "start": "2023",
+      "id": "5",
+      "start": "2024",
       "end": "2025",
       "title": "Paul Sabatier University, Toulouse (31)",
-      "description": "Master's degree in computer science with a focus on Embedded and Connected Systems: Infrastructure and Software"
+      "description": "Master's degree (M2) in computer science with a focus on Embedded and Connected Systems: Infrastructure and Software"
+    },
+    {
+      "id": "4",
+      "start": "2023",
+      "end": "2024",
+      "title": "Paul Sabatier University, Toulouse (31)",
+      "description": "Master's degree (M1) in computer science with a focus on Embedded and Connected Systems: Infrastructure and Software"
     },
     {
       "id": "3",
@@ -129,34 +137,5 @@
       "title": "Multipurpose employee | Paul, Aire du frontonnais",
       "description": "Preparation of products with particular attention to pastries. Handling cash receipts, taking and preparing orders orders, and responsibility for opening and closing of the store."
     }
-  ],
-  "skills": [
-    "arduino",
-    "bash",
-    "c",
-    "csharp",
-    "css3",
-    "django",
-    "docker",
-    "espressif",
-    "express-js",
-    "flask",
-    "git",
-    "html5",
-    "java",
-    "javascript",
-    "jupyter",
-    "mongodb",
-    "nextjs",
-    "nodejs",
-    "ocaml",
-    "postgres",
-    "python",
-    "react-native",
-    "redis",
-    "solidworks",
-    "sql",
-    "swagger",
-    "visual-studio-code"
   ]
 }
