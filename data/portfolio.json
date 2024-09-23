@@ -25,11 +25,22 @@
       "type": "Embedded system",
       "description": "This Solar Tracker is an embedded system that uses an Arduino or ESP32 microcontroller to track the sun's position and adjust the angle of a solar panel accordingly. By tracking the sun’s movement throughout the day, the Solar Tracker ensures the solar panel is always optimally positioned for maximum energy production.",
       "year": "2024",
-      "technologies": ["c", "espressif", "platformio", "solidworks"],
+      "technologies": ["cpp", "espressif", "platformio", "solidworks"],
       "imageSrc": "solar_tracker_main.webp"
     },
     {
       "id": "2",
+      "markdown": "cpu_fpga",
+      "github": "https://github.com/TER-Zybo",
+      "title": "CPU-FPGA communication environment",
+      "type": "Embedded system",
+      "description": "As part of my Master's 1 project, I developed a student environment for dynamic FPGA reprogramming in VHDL, with communication between the FPGA and CPU using C applications and device tree overlays. We set up an embedded Linux system on a Zynq board, configured with Xilinx Vivado and PetaLinux, including a root file system (RFS) and VHDL IP blocks. The FPGA managed a PmodENC module for counting, while the Linux CPU handled data reading. The goal was to help students understand the interactions between programmable logic and the operating system.",
+      "year": "2024",
+      "technologies": ["c", "vhdl", "linux", "xilinx"],
+      "imageSrc": "cpu_fpga_design_1.png"
+    },
+    {
+      "id": "3",
       "markdown": "atmosphere",
       "github": "https://github.com/HDwayne/Atmosphere",
       "title": "Atmosphere",
@@ -40,7 +51,7 @@
       "imageSrc": "atmosphere_img.webp"
     },
     {
-      "id": "3",
+      "id": "4",
       "markdown": "ballot",
       "github": "https://github.com/HDwayne/Scrutin",
       "title": "ballot",
@@ -51,7 +62,7 @@
       "imageSrc": "ballot_img.webp"
     },
     {
-      "id": "4",
+      "id": "5",
       "markdown": "notyet",
       "github": "https://github.com/HDwayne/NotYet",
       "title": "NotYet",
@@ -62,7 +73,7 @@
       "imageSrc": "notyet_img.png"
     },
     {
-      "id": "5",
+      "id": "6",
       "markdown": "dashboard_finances",
       "github": "https://github.com/HDwayne/Dashboard_gestion_budget",
       "title": "Dashboard for tracking revenues and expenses",
