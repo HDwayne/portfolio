@@ -18,7 +18,18 @@
   },
   "projects": [
     {
-      "id": "5",
+      "id": "1",
+      "markdown": "solar_tracker",
+      "github": "https://github.com/HDwayne/SolarArduino",
+      "title": "Solar Tracker",
+      "type": "Embedded system",
+      "description": "This Solar Tracker is an embedded system that uses an Arduino or ESP32 microcontroller to track the sun's position and adjust the angle of a solar panel accordingly. By tracking the sun’s movement throughout the day, the Solar Tracker ensures the solar panel is always optimally positioned for maximum energy production.",
+      "year": "2024",
+      "technologies": ["c", "espressif", "platformio", "solidworks"],
+      "imageSrc": "solar_tracker_main.webp"
+    },
+    {
+      "id": "2",
       "markdown": "atmosphere",
       "github": "https://github.com/HDwayne/Atmosphere",
       "title": "Atmosphere",
@@ -29,18 +40,7 @@
       "imageSrc": "atmosphere_img.webp"
     },
     {
-      "id": "1",
-      "markdown": "solar_tracker",
-      "github": "https://github.com/HDwayne/solar-tracker",
-      "title": "Solar Tracker",
-      "type": "Embedded system",
-      "description": "An embedded system that uses an ESP32 microcontroller to accurately track the position of the sun and adjust the angle of a solar panel accordingly. By constantly monitoring the sun's movement throughout the day, the Solar Tracker ensures that the solar panel is always in the optimal position for maximum energy production. The system uses precise calculations to determine the sun's position and employs relays to adjust panel angles for optimal performance.",
-      "year": "2023",
-      "technologies": ["c", "espressif", "platformio", "solidworks"],
-      "imageSrc": "solar_tracker_img.webp"
-    },
-    {
-      "id": "2",
+      "id": "3",
       "markdown": "ballot",
       "github": "https://github.com/HDwayne/Scrutin",
       "title": "ballot",
@@ -51,7 +51,7 @@
       "imageSrc": "ballot_img.webp"
     },
     {
-      "id": "3",
+      "id": "4",
       "markdown": "notyet",
       "github": "https://github.com/HDwayne/NotYet",
       "title": "NotYet",
@@ -62,7 +62,7 @@
       "imageSrc": "notyet_img.png"
     },
     {
-      "id": "4",
+      "id": "5",
       "markdown": "dashboard_finances",
       "github": "https://github.com/HDwayne/Dashboard_gestion_budget",
       "title": "Dashboard for tracking revenues and expenses",
