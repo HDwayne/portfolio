@@ -26,6 +26,9 @@ export default function Product() {
               <br />
               <br />
               {data.mydescription2}
+              <br />
+              <br />
+              {data.mydescription3}
             </motion.p>
             <motion.section
               className="m-2"

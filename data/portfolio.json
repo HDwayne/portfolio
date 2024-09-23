@@ -3,6 +3,7 @@
   "description": "Dwayne Herzberg's portfolio",
   "mydescription": "I am a 21-year-old student in my final year of a master's degree in Embedded and Connected Systems at Paul Sabatier University. With a strong focus on embedded systems and a passion for low-level development.",
   "mydescription2": "In addition to my academic work, I enjoy creating complete projects from scratch. This includes everything from prototyping and 3D modeling in SolidWorks, to 3D printing and finalizing the product. I also regularly work on and improve my homelab, setting up various services and fine-tuning my personal server infrastructure to meet my needs and those of my family.",
+  "mydescription3": "Beyond my academic and project work, I lead a group of young people aged 13 to 16 within the Scouts and Guides of France. I also enjoy rock climbing and hold a Level 3 diving certification (ANMP).",
   "socials": [
     { "id": "1", "title": "Github", "link": "https://github.com/HDwayne" },
     {
@@ -120,6 +121,12 @@
     }
   ],
   "experiences": [
+    {
+      "id": "5",
+      "start": "August 2024",
+      "title": "Leader, International Scouting Camp | Koblenz, Germany",
+      "description": "Supervised a group of 14-16-year-olds during an international scout camp in Germany, bringing together participants from France, Germany, England, and Sweden."
+    },
     {
       "id": "4",
       "start": "June 2023",
