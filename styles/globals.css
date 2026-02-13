@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --breakpoint-tablet: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
+
+  --color-dark-grey: #121212;
+  --color-dark-primary: #1F1B24;
+  --color-dark-purple: #BB86FC;
+  --color-dark-teal: #03DAC5;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   @apply dark:bg-dark-grey dark:text-white;
